@@ -4,7 +4,7 @@ import * as ReactDOM from 'react-dom'
 import { useStrict } from 'mobx'
 import { Provider } from 'mobx-react'
 import './globals'
-import {RouterComponent} from './router'
+import { RouterComponent } from './router'
 import RootStore from './stores/RootStore'
 
 import 'app/css/style.pcss'
