@@ -1,0 +1,7 @@
+{
+    "plugins": [
+        "react-hot-loader/babel",
+        ["import", { "libraryName": "antd", "style": true }],
+        ["emotion", { "sourceMap": true, "autoLabel": true }]
+    ]
+}
