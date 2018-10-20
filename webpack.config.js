@@ -46,8 +46,10 @@ module.exports = {
                     ? "ts-loader"
                     : [
                           "babel-loader",
-                          "ts-loader"
-                      ]
+                          "ts-loader",
+                          "tslint-loader"
+                      ],
+                      exclude: [/bower_components/, /node_modules/]
             },
             {
                 test: /\.less$/,

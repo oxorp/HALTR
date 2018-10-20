@@ -1,9 +1,9 @@
-import { observable, computed, action } from 'mobx'
+import { action, computed, observable } from 'mobx'
 
 class RootStore {
-    @observable user = {
-		id: "1",
-        name: "TestUser_1"
-	};
+    @observable public user = {
+        id: '1',
+        name: 'TestUser_1'
+    }
 }
-export default new RootStore();
+export default new RootStore()
