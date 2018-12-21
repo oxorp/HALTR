@@ -13,3 +13,4 @@ I made this repo to have a good starting point for quick prototypes or to just t
 - TailWind
 - Webpack
 - AntDesign
+- MobX
